@@ -36,5 +36,6 @@ The smart contract sets the deploying address as the owner, allows minting, tran
 # Authors
 Metacrafter Anazel
 
-#License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+
+# License
+This project is licensed under the MIT License
