@@ -1,4 +1,7 @@
-# Module4
+# Description
+For this project, you will write a smart contract to create your own ERC20 token and deploy it using HardHat or Remix. Once deployed, you should be able to interact with it for your walk-through video. From your chosen tool, the contract owner should be able to mint tokens to a provided address and any user should be able to burn and transfer tokens.
+
+# Executing the code
 
 Avalanche HyperSDK
 Project: Create a Custom Subnet
@@ -27,3 +30,11 @@ contract CryptoToken is ERC20, Ownable {
         itemPrices[2] = 350;
         itemPrices[3] = 250;
         itemPrices[4] = 50;
+    
+This smart contract leverages the OpenZeppelin ERC20 implementation to ensure security and compliance with the ERC20 standard while adding custom functionalities for a virtual shop.
+The smart contract sets the deploying address as the owner, allows minting, transfers, displayShopItems, purchaseItems, redeemItems, burnCTK, getBalance, and does not support decimals. It uses OpenZeppelin ERC20 implementation for security and compliance, adding custom functionalities for a virtual shop.
+# Authors
+Metacrafter Anazel
+
+#License
+This project is licensed under the MIT License - see the LICENSE.md file for details
